@@ -1,8 +1,6 @@
 package com.example.moneymanager;
 
 public enum Categories {
-    //множества категорий
-
     PRODUCTS("food"),
     CAFE("cafe"),
     LEISURE("leisure"),

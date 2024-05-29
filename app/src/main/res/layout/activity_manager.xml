@@ -41,14 +41,15 @@
                 android:gravity="right"
                 android:orientation="vertical"
                 tools:ignore="MissingConstraints">
+
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_weight = "0"
                     android:layout_height="wrap_content"
-                    android:gravity = "center"
-                    android:text="Начало:"
-                    android:textSize = "16sp"
-                    android:textColor = "@color/white"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="Begin:"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
                     app:fontFamily="@font/roboto_bold" />
                 <TextView
                     android:id = "@+id/dateFrom"
@@ -74,14 +75,15 @@
                 android:gravity="right"
                 android:orientation="vertical"
                 tools:ignore="MissingConstraints">
+
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_weight = "0"
                     android:layout_height="wrap_content"
-                    android:gravity = "center"
-                    android:text="Конец:"
-                    android:textSize = "16sp"
-                    android:textColor = "@color/white"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="End:"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
                     app:fontFamily="@font/roboto_bold" />
                 <TextView
                     android:id = "@+id/dateTo"
@@ -109,6 +111,17 @@
 
         </LinearLayout>
 
+        <TextView
+            android:id="@+id/textUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:text="Name:"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_marginTop = "20sp"
@@ -125,14 +138,15 @@
                 android:gravity="center"
                 android:orientation="vertical"
                 tools:ignore="MissingConstraints">
+
                 <TextView
                     android:id="@+id/edaName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity = "center"
-                    android:text="Продукты"
-                    android:textSize = "16sp"
-                    android:textColor = "@color/black"
+                    android:gravity="center"
+                    android:text="Groceries"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
                     app:fontFamily="@font/roboto_medium" />
                 <ImageView
                     android:layout_marginTop = "5sp"
@@ -142,14 +156,15 @@
                     android:layout_height="50sp"
                     android:src="@drawable/eda"
                     />
+
                 <TextView
                     android:id="@+id/edaPrice"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity = "center"
-                    android:text="0 BYN"
-                    android:textSize = "16sp"
-                    android:textColor = "@color/black"
+                    android:gravity="center"
+                    android:text="0 Pesos"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
                     app:fontFamily="@font/roboto_medium" />
             </LinearLayout>
             <LinearLayout
@@ -160,14 +175,15 @@
                 android:gravity="center"
                 android:orientation="vertical"
                 tools:ignore="MissingConstraints">
+
                 <TextView
                     android:id="@+id/cafeName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity = "center"
-                    android:text="Кафе"
-                    android:textSize = "16sp"
-                    android:textColor = "@color/black"
+                    android:gravity="center"
+                    android:text="Cafe"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
                     app:fontFamily="@font/roboto_medium" />
                 <ImageView
                     android:layout_marginTop = "5sp"
@@ -177,14 +193,15 @@
                     android:layout_height="50sp"
                     android:src="@drawable/cafe"
                     />
+
                 <TextView
                     android:id="@+id/cafePrice"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity = "center"
-                    android:text="0 BYN"
-                    android:textSize = "16sp"
-                    android:textColor = "@color/black"
+                    android:gravity="center"
+                    android:text="0 Pesos"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
                     app:fontFamily="@font/roboto_medium" />
             </LinearLayout>
             <LinearLayout
@@ -195,14 +212,15 @@
                 android:gravity="center"
                 android:orientation="vertical"
                 tools:ignore="MissingConstraints">
+
                 <TextView
                     android:id="@+id/dosugName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity = "center"
-                    android:text="Досуг"
-                    android:textSize = "16sp"
-                    android:textColor = "@color/black"
+                    android:gravity="center"
+                    android:text="Leisure"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
                     app:fontFamily="@font/roboto_medium" />
                 <ImageView
                     android:layout_marginTop = "5sp"
@@ -212,14 +230,15 @@
                     android:layout_height="50sp"
                     android:src="@drawable/dosug"
                     />
+
                 <TextView
                     android:id="@+id/dosugPrice"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity = "center"
-                    android:text="0 BYN"
-                    android:textSize = "16sp"
-                    android:textColor = "@color/black"
+                    android:gravity="center"
+                    android:text="0 Pesos"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
                     app:fontFamily="@font/roboto_medium" />
             </LinearLayout>
             <LinearLayout
@@ -230,14 +249,15 @@
                 android:gravity="center"
                 android:orientation="vertical"
                 tools:ignore="MissingConstraints">
+
                 <TextView
                     android:id="@+id/transportName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity = "center"
-                    android:text="Транспорт"
-                    android:textSize = "16sp"
-                    android:textColor = "@color/black"
+                    android:gravity="center"
+                    android:text="Transport"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
                     app:fontFamily="@font/roboto_medium" />
                 <ImageView
                     android:layout_marginTop = "5sp"
@@ -247,14 +267,15 @@
                     android:layout_height="50sp"
                     android:src="@drawable/transport"
                     />
+
                 <TextView
                     android:id="@+id/transportPrice"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity = "center"
-                    android:text="0 BYN"
-                    android:textSize = "16sp"
-                    android:textColor = "@color/black"
+                    android:gravity="center"
+                    android:text="0 Pesos"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
                     app:fontFamily="@font/roboto_medium" />
             </LinearLayout>
         </LinearLayout>
@@ -275,20 +296,21 @@
                 android:orientation="vertical"
                 tools:ignore="MissingConstraints">
                 <LinearLayout
-                    android:id="@+id/zdorovie"
+                    android:id="@+id/layoutlinear1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:orientation="vertical"
                     tools:ignore="MissingConstraints">
+
                     <TextView
                         android:id="@+id/zdorovieName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity = "center"
-                        android:text="Здоровье"
-                        android:textSize = "16sp"
-                        android:textColor = "@color/black"
+                        android:gravity="center"
+                        android:text="Health"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
                         app:fontFamily="@font/roboto_medium" />
                     <ImageView
                         android:layout_marginTop = "5sp"
@@ -298,18 +320,19 @@
                         android:layout_height="50sp"
                         android:src="@drawable/zdorovie"
                         />
+
                     <TextView
                         android:id="@+id/zdoroviePrice"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity = "center"
-                        android:text="0 BYN"
-                        android:textSize = "16sp"
-                        android:textColor = "@color/black"
+                        android:gravity="center"
+                        android:text="0 Pesos"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
                         app:fontFamily="@font/roboto_medium" />
                 </LinearLayout>
                 <LinearLayout
-                    android:id="@+id/semya"
+                    android:id="@+id/layoutlinear2"
                     android:layout_width="match_parent"
                     android:layout_weight = "1"
                     android:layout_marginTop = "20sp"
@@ -317,14 +340,15 @@
                     android:gravity="center"
                     android:orientation="vertical"
                     tools:ignore="MissingConstraints">
+
                     <TextView
-                        android:id="@+id/semyaName"
+                        android:id="@+id/FamilyName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity = "center"
-                        android:text="Семья"
-                        android:textSize = "16sp"
-                        android:textColor = "@color/black"
+                        android:gravity="center"
+                        android:text="Funds for family"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
                         app:fontFamily="@font/roboto_medium" />
                     <ImageView
                         android:layout_marginTop = "5sp"
@@ -334,14 +358,15 @@
                         android:layout_height="50sp"
                         android:src="@drawable/semya"
                         />
+
                     <TextView
                         android:id="@+id/semyaPrice"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity = "center"
-                        android:text="0 BYN"
-                        android:textSize = "16sp"
-                        android:textColor = "@color/black"
+                        android:gravity="center"
+                        android:text="0 Pesos"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
                         app:fontFamily="@font/roboto_medium" />
                 </LinearLayout>
 
@@ -353,14 +378,15 @@
                 android:gravity="center"
                 android:orientation="vertical"
                 tools:ignore="MissingConstraints">
+
                 <TextView
                     android:id="@+id/totalSpending"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity = "center"
-                    android:text="0 BYN"
-                    android:textSize = "32sp"
-                    android:textColor = "@color/black"
+                    android:gravity="center"
+                    android:text="0 Pesos"
+                    android:textColor="@color/black"
+                    android:textSize="32sp"
                     app:fontFamily="@font/roboto_bold" />
                 <Button
                     android:id="@+id/changeCurrency"
@@ -383,20 +409,21 @@
                 android:orientation="vertical"
                 tools:ignore="MissingConstraints">
                 <LinearLayout
-                    android:id="@+id/podarki"
+                    android:id="@+id/layoutlinear3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:orientation="vertical"
                     tools:ignore="MissingConstraints">
+
                     <TextView
                         android:id="@+id/podarkiName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity = "center"
-                        android:text="Подарки"
-                        android:textSize = "16sp"
-                        android:textColor = "@color/black"
+                        android:gravity="center"
+                        android:text="Gifts"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
                         app:fontFamily="@font/roboto_medium" />
                     <ImageView
                         android:layout_marginTop = "5sp"
@@ -406,14 +433,15 @@
                         android:layout_height="50sp"
                         android:src="@drawable/podarki"
                         />
+
                     <TextView
                         android:id="@+id/podarkiPrice"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity = "center"
-                        android:text="0 BYN"
-                        android:textSize = "16sp"
-                        android:textColor = "@color/black"
+                        android:gravity="center"
+                        android:text="0 Pesos"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
                         app:fontFamily="@font/roboto_medium" />
                 </LinearLayout>
                 <LinearLayout
@@ -425,14 +453,15 @@
                     android:gravity="center"
                     android:orientation="vertical"
                     tools:ignore="MissingConstraints">
+
                     <TextView
-                        android:id="@+id/pokupkiName"
+                        android:id="@+id/PurchasesName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity = "center"
-                        android:text="Покупки"
-                        android:textSize = "16sp"
-                        android:textColor = "@color/black"
+                        android:gravity="center"
+                        android:text="Purchases"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
                         app:fontFamily="@font/roboto_medium" />
                     <ImageView
                         android:layout_marginTop = "5sp"
@@ -442,14 +471,15 @@
                         android:layout_height="50sp"
                         android:src="@drawable/pokupki"
                         />
+
                     <TextView
                         android:id="@+id/pokupkiPrice"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity = "center"
-                        android:text="0 BYN"
-                        android:textSize = "16sp"
-                        android:textColor = "@color/black"
+                        android:gravity="center"
+                        android:text="0 Pesos"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
                         app:fontFamily="@font/roboto_medium" />
                 </LinearLayout>
 

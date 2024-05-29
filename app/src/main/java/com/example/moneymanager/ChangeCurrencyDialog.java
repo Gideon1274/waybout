@@ -6,9 +6,6 @@ import android.app.Dialog;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import androidx.fragment.app.DialogFragment;
 
@@ -30,7 +27,7 @@ public class ChangeCurrencyDialog extends DialogFragment {
         super.onStart();
         toByn = getDialog().findViewById(R.id.changeToBYN);
         toEur = getDialog().findViewById(R.id.changeToEUR);
-        toRub = getDialog().findViewById(R.id.changeToRUB);
+        toRub = getDialog().findViewById(R.id.changeToPHP);
         toUsd = getDialog().findViewById(R.id.changeToUSD);
 
         saveChanges = getDialog().findViewById(R.id.saveCurrencyChanges);

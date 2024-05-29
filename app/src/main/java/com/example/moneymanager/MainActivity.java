@@ -15,7 +15,6 @@ import java.util.logging.Logger;
 import okhttp3.OkHttpClient;
 
 public class MainActivity extends AppCompatActivity {
-    //класс отвечающий за экран регистрации
     private EditText inputUsername, inputPassword;
     private Button logIn, logInDemo;
 
@@ -27,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         Storage.dbManager = new DBManager(this);
         Storage.users = Storage.dbManager.getUsers();
         Storage.notes = Storage.dbManager.getNotes();
+        //naa diri ang demo
 //        if(Storage.users.size()==0){
 //            Storage.dbManager.insertUserIntoDB("demo user", "12345678");
 //            Storage.users = Storage.dbManager.getUsers();

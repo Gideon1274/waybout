@@ -13,7 +13,6 @@ import android.widget.TextView;
 import androidx.fragment.app.DialogFragment;
 
 public class AddNoteDialog extends DialogFragment {
-    //диалоговое окно добавления затраты
     TextView categoryName;
     ImageView categoryImage;
     EditText inputPrice;
@@ -22,10 +21,8 @@ public class AddNoteDialog extends DialogFragment {
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
 
-        // Use the Builder class for convenient dialog construction
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         builder.setView(R.layout.add_note);
-        // Create the AlertDialog object and return it
         return builder.create();
     }
 
@@ -51,42 +48,42 @@ public class AddNoteDialog extends DialogFragment {
         });
         switch (Storage.categories){
             case CAFE:{
-                categoryName.setText("Кафе");
+                categoryName.setText("Cafe");
                 categoryImage.setImageResource(R.drawable.cafe);
                 break;
             }
             case GIFTS:{
-                categoryName.setText("Подарки");
+                categoryName.setText("Gifts");
                 categoryImage.setImageResource(R.drawable.podarki);
                 break;
             }
             case FAMILY:{
-                categoryName.setText("Семья");
+                categoryName.setText("Family");
                 categoryImage.setImageResource(R.drawable.semya);
                 break;
             }
             case HEALTH:{
-                categoryName.setText("Здоровье");
+                categoryName.setText("Health");
                 categoryImage.setImageResource(R.drawable.zdorovie);
                 break;
             }
             case LEISURE:{
-                categoryName.setText("Досуг");
+                categoryName.setText("Leisure");
                 categoryImage.setImageResource(R.drawable.dosug);
                 break;
             }
             case PRODUCTS:{
-               categoryName.setText("Продукты");
+               categoryName.setText("Products");
                 categoryImage.setImageResource(R.drawable.eda);
                 break;
             }
             case PURCHASES:{
-                categoryName.setText("Покупки");
+                categoryName.setText("Purchases");
                 categoryImage.setImageResource(R.drawable.pokupki);
                 break;
             }
             case TRANSPORT:{
-                categoryName.setText("Транспорт");
+                categoryName.setText("Transport");
                 categoryImage.setImageResource(R.drawable.transport);
                 break;
             }

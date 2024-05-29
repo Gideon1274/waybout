@@ -3,7 +3,6 @@ package com.example.moneymanager;
 import java.lang.ref.SoftReference;
 
 public class Note {
-    //класс затраты, содержит все ее характеристики, используется как шаблон для преобразования с БД
     private int id;
     private double price;
     private String userId;

@@ -11,7 +11,6 @@ public class Constants {
 
     public static String[] COURSES = {USD_BYN, USD_RUB, EUR_BYN,EUR_BYN,EUR_RUB,EUR_USD,BYN_RUB};
 
-    //константные строки (названия таблиц, БД, запросы создания и удаления таблиц
     public static final String DB_NAME = "money.db";
     public static final int DB_VERSION = 1;
 

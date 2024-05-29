@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.Intent;
 
 public class LogInViewModel {
-    //логика регистрации
     public static void logIn(Context context, String username, String password) {
         User user1 = returnCurrentUser(username);
         if (username.equals("")) {
@@ -32,6 +31,9 @@ public class LogInViewModel {
                 mainActivity.showIncorrectInput();
             }
         }
+        Intent intent = new Intent(context, ManagerActivity.class);
+        intent.putExtra("username", username);
+        context.startActivity(intent);
     }
 
     public static User returnCurrentUser(String username) {

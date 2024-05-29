@@ -20,17 +20,18 @@
         android:textSize="16sp"
         android:background = "@drawable/light_rectangle_corners"
         android:text= "BYN" />
+
     <Button
-        android:id="@+id/changeToRUB"
+        android:id="@+id/changeToPHP"
         android:layout_width="80sp"
-        app:fontFamily="@font/roboto_medium"
         android:layout_height="30sp"
-        android:layout_marginTop = "8sp"
+        android:layout_marginTop="8sp"
         android:layout_weight="0"
+        android:background="@drawable/light_rectangle_corners"
+        android:text="PHP"
         android:textColor="@color/black"
         android:textSize="16sp"
-        android:background = "@drawable/light_rectangle_corners"
-        android:text= "RUB" />
+        app:fontFamily="@font/roboto_medium" />
     <Button
         android:id="@+id/changeToUSD"
         android:layout_width="80sp"

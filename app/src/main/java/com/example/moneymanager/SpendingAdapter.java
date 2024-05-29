@@ -175,42 +175,42 @@ public class SpendingAdapter extends RecyclerView.Adapter<SpendingAdapter.ViewHo
     public void updateNameImage(ViewHolder viewHolder) {
         switch (viewHolder.categories) {
             case CAFE: {
-                viewHolder.categoryName.setText("Кафе");
+                viewHolder.categoryName.setText("Cafe");
                 viewHolder.categoryImage.setImageResource(R.drawable.cafe);
                 break;
             }
             case GIFTS: {
-                viewHolder.categoryName.setText("Подарки");
+                viewHolder.categoryName.setText("Gifts");
                 viewHolder.categoryImage.setImageResource(R.drawable.podarki);
                 break;
             }
             case FAMILY: {
-                viewHolder.categoryName.setText("Семья");
+                viewHolder.categoryName.setText("Family");
                 viewHolder.categoryImage.setImageResource(R.drawable.semya);
                 break;
             }
             case HEALTH: {
-                viewHolder.categoryName.setText("Здоровье");
+                viewHolder.categoryName.setText("Health");
                 viewHolder.categoryImage.setImageResource(R.drawable.zdorovie);
                 break;
             }
             case LEISURE: {
-                viewHolder.categoryName.setText("Досуг");
+                viewHolder.categoryName.setText("Leisure");
                 viewHolder.categoryImage.setImageResource(R.drawable.dosug);
                 break;
             }
             case PRODUCTS: {
-                viewHolder.categoryName.setText("Продукты");
+                viewHolder.categoryName.setText("Products");
                 viewHolder.categoryImage.setImageResource(R.drawable.eda);
                 break;
             }
             case PURCHASES: {
-                viewHolder.categoryName.setText("Покупки");
+                viewHolder.categoryName.setText("Purchases");
                 viewHolder.categoryImage.setImageResource(R.drawable.pokupki);
                 break;
             }
             case TRANSPORT: {
-                viewHolder.categoryName.setText("Транспорт");
+                viewHolder.categoryName.setText("Transport");
                 viewHolder.categoryImage.setImageResource(R.drawable.transport);
                 break;
             }

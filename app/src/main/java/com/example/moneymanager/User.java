@@ -1,7 +1,6 @@
 package com.example.moneymanager;
 
 public class User {
-    //класс шаблон для хранения юзера
     private int id;
     private String username;
     private String password;

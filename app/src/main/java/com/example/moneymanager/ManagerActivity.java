@@ -5,25 +5,16 @@ import androidx.fragment.app.DialogFragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.app.DatePickerDialog;
-import android.icu.util.Calendar;
-import android.media.Image;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.DatePicker;
-import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 
 public class ManagerActivity extends AppCompatActivity {
-    //экран добавления затрат
 
     private LinearLayout products, cafe, dosug, transport, health, family, gifts, buys;
     private TextView productsPrice, cafePrice, dosugPrice, transportPrice, healthPrice, familyPrice, giftsPrice, buysPrice;
@@ -34,6 +25,7 @@ public class ManagerActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private SpendingAdapter spendingAdapter;
     private TopMenuPresenter topMenuPresenter;
+    private TextView textUsername;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +39,11 @@ public class ManagerActivity extends AppCompatActivity {
         initElements();
         Storage.currentUserNotes = new ArrayList<>();
         updateAll();
+        textUsername = findViewById(R.id.textUsername);
+
+        Intent intent = getIntent();
+        String username = intent.getStringExtra("username");
+        textUsername.setText("Name: " + username);
     }
 
     public void updateAll(){
@@ -106,7 +103,7 @@ public class ManagerActivity extends AppCompatActivity {
             }
         });
         transportPrice = findViewById(R.id.transportPrice);
-        health = findViewById(R.id.zdorovie);
+        health = findViewById(R.id.layoutlinear1);
         health.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -115,7 +112,7 @@ public class ManagerActivity extends AppCompatActivity {
             }
         });
         healthPrice = findViewById(R.id.zdoroviePrice);
-        family = findViewById(R.id.semya);
+        family = findViewById(R.id.layoutlinear2);
         family.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -124,7 +121,7 @@ public class ManagerActivity extends AppCompatActivity {
             }
         });
         familyPrice = findViewById(R.id.semyaPrice);
-        gifts = findViewById(R.id.podarki);
+        gifts = findViewById(R.id.layoutlinear3);
         gifts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

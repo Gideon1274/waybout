@@ -50,7 +50,7 @@ public class TopMenuPresenter {
                                 dateFrom.setText(date);
                             }
                         }, mYear, mMonth, mDay);
-                datePickerDialog.setButton(DialogInterface.BUTTON_NEGATIVE, "Удалить выбор", new DialogInterface.OnClickListener() {
+                datePickerDialog.setButton(DialogInterface.BUTTON_NEGATIVE, "Remove Selection", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         if (which == DialogInterface.BUTTON_NEGATIVE) {
                             dateFrom.setText("");
@@ -88,7 +88,7 @@ public class TopMenuPresenter {
                                 dateTo.setText(date);
                             }
                         }, mYear, mMonth, mDay);
-                datePickerDialog.setButton(DialogInterface.BUTTON_NEGATIVE, "Удалить выбор", new DialogInterface.OnClickListener() {
+                datePickerDialog.setButton(DialogInterface.BUTTON_NEGATIVE, "Remove Selection", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         if (which == DialogInterface.BUTTON_NEGATIVE) {
                             dateTo.setText("");

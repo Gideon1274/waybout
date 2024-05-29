@@ -32,7 +32,7 @@ public class DBManager {
         ContentValues values = new ContentValues();
         values.put(Constants.USER_USERNAME, username);
         values.put(Constants.USER_PASSWORD, password);
-        values.put(Constants.USER_CURRENCY, "BYN");
+        values.put(Constants.USER_CURRENCY, "P ");
 
         db.insert(Constants.USER_TABLE_NAME, null, values);
     }
